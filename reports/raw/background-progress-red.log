@@ -1,0 +1,2 @@
+FAIL background_sync_progresses_while_append_is_blocked: /home/lxq/jq-projects/rafv4/tests/raf_tests.cpp:517: synced
+0 passed, 1 failed

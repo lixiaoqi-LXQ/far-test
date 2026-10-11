@@ -1,0 +1,12 @@
+smoke-64: 0.281 GB/s, 4391587 records/s
+smoke-read-64-crc0: 10.031 GB/s, 156738427 records/s
+smoke-read-64-crc1: 0.897 GB/s, 14013147 records/s
+smoke-4096: 0.313 GB/s, 76383 records/s
+smoke-read-4096-crc0: 80.608 GB/s, 19679777 records/s
+smoke-read-4096-crc1: 0.908 GB/s, 221705 records/s
+smoke-1048576: 0.312 GB/s, 298 records/s
+smoke-read-1048576-crc0: 160.794 GB/s, 153345 records/s
+smoke-read-1048576-crc1: 1.028 GB/s, 981 records/s
+smoke-mixed: 0.521 GB/s, 2329 records/s
+smoke-read-mixed-crc0: 174.107 GB/s, 773472 records/s
+smoke-read-mixed-crc1: 1.093 GB/s, 4619 records/s

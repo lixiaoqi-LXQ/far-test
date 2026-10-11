@@ -1,0 +1,2 @@
+FAIL background_sync_error_reaches_inflight_append: expected RAF error
+0 passed, 1 failed

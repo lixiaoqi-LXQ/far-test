@@ -1,0 +1,58 @@
+[
+  {
+    "threads": 1,
+    "payload_bytes": 144149839872,
+    "seconds": 5.000242071,
+    "bytes_per_second": 28828572262.1,
+    "sink": 11841474928071530994,
+    "name": "plain-mmap-xor-n1",
+    "cpu_affinity": "5",
+    "command": [
+      "taskset",
+      "-c",
+      "5",
+      "/home/lxq/jq-projects/rafv4/mmap-scan-reference-toby9xso/mmap_scan",
+      "/home/lxq/jq-projects/rafv4/mmap-scan-reference-toby9xso/archive.0",
+      "1"
+    ],
+    "compile_command": [
+      "g++",
+      "-O3",
+      "-DNDEBUG",
+      "-std=c++20",
+      "-pthread",
+      "-I/home/lxq/jq-projects/rafv4/include",
+      "/home/lxq/jq-projects/rafv4/reports/raw/mmap-scan-reference.cpp",
+      "-o",
+      "/home/lxq/jq-projects/rafv4/mmap-scan-reference-toby9xso/mmap_scan"
+    ]
+  },
+  {
+    "threads": 8,
+    "payload_bytes": 781482721280,
+    "seconds": 5.00348545,
+    "bytes_per_second": 156187667395,
+    "sink": 16964327741075807649,
+    "name": "plain-mmap-xor-n8",
+    "cpu_affinity": "5,6,7,8,16,17,18,19",
+    "command": [
+      "taskset",
+      "-c",
+      "5,6,7,8,16,17,18,19",
+      "/home/lxq/jq-projects/rafv4/mmap-scan-reference-toby9xso/mmap_scan",
+      "/home/lxq/jq-projects/rafv4/mmap-scan-reference-toby9xso/archive.0",
+      "8"
+    ],
+    "compile_command": [
+      "g++",
+      "-O3",
+      "-DNDEBUG",
+      "-std=c++20",
+      "-pthread",
+      "-I/home/lxq/jq-projects/rafv4/include",
+      "/home/lxq/jq-projects/rafv4/reports/raw/mmap-scan-reference.cpp",
+      "-o",
+      "/home/lxq/jq-projects/rafv4/mmap-scan-reference-toby9xso/mmap_scan"
+    ]
+  }
+]

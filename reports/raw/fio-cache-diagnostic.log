@@ -1,0 +1,4 @@
+buffered-read-1M-n1-invalidate 2.455 GB/s device read 14.848 GB resident [(0, 524288)]
+buffered-read-1M-n1-hot 28.913 GB/s device read 0.0 GB resident [(524288, 524288)]
+buffered-read-1M-n8-invalidate 11.137 GB/s device read 67.194 GB resident [(524288, 524288), (0, 524288), (0, 524288), (0, 524288), (0, 524288), (0, 524288), (0, 524288), (0, 524288)]
+buffered-read-1M-n8-hot 113.747 GB/s device read 0.0 GB resident [(524288, 524288), (524288, 524288), (524288, 524288), (524288, 524288), (524288, 524288), (524288, 524288), (524288, 524288), (524288, 524288)]

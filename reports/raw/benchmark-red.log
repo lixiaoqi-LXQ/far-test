@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/lxq/jq-projects/rafv4/tests/bench_smoke.py", line 58, in <module>
+    main()
+  File "/home/lxq/jq-projects/rafv4/tests/bench_smoke.py", line 43, in main
+    assert result["sink"] != 0, f"payload tail is never consumed (size={size}, crc={crc})"
+           ^^^^^^^^^^^^^^^^^^^
+AssertionError: payload tail is never consumed (size=8, crc=0)

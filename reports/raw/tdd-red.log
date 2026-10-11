@@ -1,0 +1,39 @@
+FAIL crc_known_vectors: /home/lxq/jq-projects/rafv4/tests/raf_tests.cpp:144: raf::crc32c(asBytes("123456789")) == 0xe3069283U
+FAIL crc_alignment_and_streaming: /home/lxq/jq-projects/rafv4/tests/raf_tests.cpp:154: raf::crc32c(bytes) == want
+FAIL empty_archive: not implemented
+FAIL binary_variable_and_large_records: not implemented
+FAIL reader_accepts_independent_fixture: not implemented
+FAIL batch_spans_more_than_iov_max: not implemented
+FAIL random_access_and_zero_copy: not implemented
+FAIL independent_iterators_and_readers_concurrent: not implemented
+FAIL one_writer_concurrent_append_is_serialized: not implemented
+FAIL writers_on_different_files: not implemented
+FAIL lock_conflicts_do_not_truncate: not implemented
+FAIL unsealed_file_requires_explicit_recovery: not implemented
+FAIL process_exit_leaves_recoverable_archive: /home/lxq/jq-projects/rafv4/tests/raf_tests.cpp:311: child("crash", temp.file()) == 0
+FAIL bad_header_crc_recovers_recognizable_version: /home/lxq/jq-projects/rafv4/tests/raf_tests.cpp:36: error.code() == code
+FAIL unrecognizable_header_is_not_modified: /home/lxq/jq-projects/rafv4/tests/raf_tests.cpp:36: error.code() == code
+FAIL bad_footer_crc_is_rebuilt: /home/lxq/jq-projects/rafv4/tests/raf_tests.cpp:36: error.code() == code
+FAIL malicious_offsets_are_rejected: /home/lxq/jq-projects/rafv4/tests/raf_tests.cpp:36: error.code() == code
+FAIL malicious_footer_boundaries_are_rejected: /home/lxq/jq-projects/rafv4/tests/raf_tests.cpp:36: error.code() == code
+FAIL payload_corruption_retains_only_prefix: not implemented
+FAIL length_corruption_is_detected_by_full_scan: not implemented
+FAIL crc_disabled_reader_still_full_validates: not implemented
+FAIL every_truncation_position_recovers_longest_prefix: /home/lxq/jq-projects/rafv4/tests/raf_tests.cpp:36: error.code() == code
+FAIL recovery_large_payload_streams_and_stops_at_tail: not implemented
+FAIL writev_eintr_and_partial_iov_are_retried: not implemented
+FAIL short_batch_error_publishes_only_complete_records: not implemented
+FAIL zero_write_is_fatal_and_recoverable: not implemented
+FAIL sync_watermark_and_idle_sync: not implemented
+FAIL sync_does_not_block_append_or_overstate_watermark: not implemented
+FAIL background_sync_is_dirty_only: not implemented
+FAIL sync_failure_is_sticky_and_recoverable: not implemented
+FAIL background_sync_failure_is_reported: not implemented
+FAIL seal_footer_before_header_sync_order: not implemented
+FAIL seal_failures_at_each_stage_recover: not implemented
+FAIL torn_header_and_short_footer_are_recoverable: not implemented
+FAIL pread_short_and_eintr_are_retried: not implemented
+FAIL reader_io_error_releases_lock: /home/lxq/jq-projects/rafv4/tests/raf_tests.cpp:36: error.code() == code
+FAIL recovery_io_failure_does_not_truncate_valid_file: /home/lxq/jq-projects/rafv4/tests/raf_tests.cpp:36: error.code() == code
+FAIL invalid_paths_and_options: /home/lxq/jq-projects/rafv4/tests/raf_tests.cpp:36: error.code() == code
+0 passed, 38 failed

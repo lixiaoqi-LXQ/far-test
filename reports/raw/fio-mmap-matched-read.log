@@ -1,0 +1,6 @@
+fio-psync-shared-512M-n1 30.358 GB/s disk 0 disk after 2s 0
+fio-mmap-shared-512M-n1 32.85 GB/s disk 0 disk after 2s 0
+raf-xor-shared-512M-n1 28.944 GB/s disk 0 disk after 2s 0
+fio-psync-shared-512M-n8 146.638 GB/s disk 0 disk after 2s 0
+fio-mmap-shared-512M-n8 129.373 GB/s disk 0 disk after 2s 0
+raf-xor-shared-512M-n8 156.373 GB/s disk 0 disk after 2s 0

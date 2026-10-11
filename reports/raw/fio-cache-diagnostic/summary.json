@@ -1,0 +1,214 @@
+[
+  {
+    "name": "buffered-read-1M-n1-invalidate",
+    "threads": 1,
+    "cache": "invalidate-each-loop",
+    "bytes_per_second": 2454644917,
+    "io_bytes": 12275679232,
+    "mean_latency_ns": 423359.447852,
+    "job_average_cpu_percent": 17.060000000000002,
+    "device_read_bytes_including_ramp": 14848098304,
+    "cache_before": [
+      [
+        0,
+        524288
+      ]
+    ],
+    "command": [
+      "fio",
+      "--ioengine=psync",
+      "--iodepth=1",
+      "--thread=1",
+      "--size=2G",
+      "--directory=/home/lxq/jq-projects/rafv4/fio-cache-diagnostic-87vw5n9g",
+      "--filename_format=data.$jobnum",
+      "--group_reporting=1",
+      "--output-format=json",
+      "--eta=never",
+      "--name=buffered-read-1M-n1-invalidate",
+      "--rw=read",
+      "--bs=1M",
+      "--numjobs=1",
+      "--direct=0",
+      "--time_based=1",
+      "--runtime=5",
+      "--ramp_time=1",
+      "--invalidate=1",
+      "--end_fsync=1",
+      "--output=/home/lxq/jq-projects/rafv4/reports/raw/fio-cache-diagnostic/buffered-read-1M-n1-invalidate.json"
+    ]
+  },
+  {
+    "name": "buffered-read-1M-n1-hot",
+    "threads": 1,
+    "cache": "hot",
+    "bytes_per_second": 28912894925,
+    "io_bytes": 144593387520,
+    "mean_latency_ns": 36125.577215,
+    "job_average_cpu_percent": 99.94,
+    "device_read_bytes_including_ramp": 0,
+    "cache_before": [
+      [
+        524288,
+        524288
+      ]
+    ],
+    "command": [
+      "fio",
+      "--ioengine=psync",
+      "--iodepth=1",
+      "--thread=1",
+      "--size=2G",
+      "--directory=/home/lxq/jq-projects/rafv4/fio-cache-diagnostic-87vw5n9g",
+      "--filename_format=data.$jobnum",
+      "--group_reporting=1",
+      "--output-format=json",
+      "--eta=never",
+      "--name=buffered-read-1M-n1-hot",
+      "--rw=read",
+      "--bs=1M",
+      "--numjobs=1",
+      "--direct=0",
+      "--time_based=1",
+      "--runtime=5",
+      "--ramp_time=1",
+      "--invalidate=0",
+      "--end_fsync=1",
+      "--output=/home/lxq/jq-projects/rafv4/reports/raw/fio-cache-diagnostic/buffered-read-1M-n1-hot.json"
+    ]
+  },
+  {
+    "name": "buffered-read-1M-n8-invalidate",
+    "threads": 8,
+    "cache": "invalidate-each-loop",
+    "bytes_per_second": 11137214835,
+    "io_bytes": 55697211392,
+    "mean_latency_ns": 745757.198411,
+    "job_average_cpu_percent": 21.535,
+    "device_read_bytes_including_ramp": 67193798656,
+    "cache_before": [
+      [
+        524288,
+        524288
+      ],
+      [
+        0,
+        524288
+      ],
+      [
+        0,
+        524288
+      ],
+      [
+        0,
+        524288
+      ],
+      [
+        0,
+        524288
+      ],
+      [
+        0,
+        524288
+      ],
+      [
+        0,
+        524288
+      ],
+      [
+        0,
+        524288
+      ]
+    ],
+    "command": [
+      "fio",
+      "--ioengine=psync",
+      "--iodepth=1",
+      "--thread=1",
+      "--size=2G",
+      "--directory=/home/lxq/jq-projects/rafv4/fio-cache-diagnostic-87vw5n9g",
+      "--filename_format=data.$jobnum",
+      "--group_reporting=1",
+      "--output-format=json",
+      "--eta=never",
+      "--name=buffered-read-1M-n8-invalidate",
+      "--rw=read",
+      "--bs=1M",
+      "--numjobs=8",
+      "--direct=0",
+      "--time_based=1",
+      "--runtime=5",
+      "--ramp_time=1",
+      "--invalidate=1",
+      "--end_fsync=1",
+      "--output=/home/lxq/jq-projects/rafv4/reports/raw/fio-cache-diagnostic/buffered-read-1M-n8-invalidate.json"
+    ]
+  },
+  {
+    "name": "buffered-read-1M-n8-hot",
+    "threads": 8,
+    "cache": "hot",
+    "bytes_per_second": 113747117430,
+    "io_bytes": 568849334272,
+    "mean_latency_ns": 73565.36151,
+    "job_average_cpu_percent": 99.9025,
+    "device_read_bytes_including_ramp": 0,
+    "cache_before": [
+      [
+        524288,
+        524288
+      ],
+      [
+        524288,
+        524288
+      ],
+      [
+        524288,
+        524288
+      ],
+      [
+        524288,
+        524288
+      ],
+      [
+        524288,
+        524288
+      ],
+      [
+        524288,
+        524288
+      ],
+      [
+        524288,
+        524288
+      ],
+      [
+        524288,
+        524288
+      ]
+    ],
+    "command": [
+      "fio",
+      "--ioengine=psync",
+      "--iodepth=1",
+      "--thread=1",
+      "--size=2G",
+      "--directory=/home/lxq/jq-projects/rafv4/fio-cache-diagnostic-87vw5n9g",
+      "--filename_format=data.$jobnum",
+      "--group_reporting=1",
+      "--output-format=json",
+      "--eta=never",
+      "--name=buffered-read-1M-n8-hot",
+      "--rw=read",
+      "--bs=1M",
+      "--numjobs=8",
+      "--direct=0",
+      "--time_based=1",
+      "--runtime=5",
+      "--ramp_time=1",
+      "--invalidate=0",
+      "--end_fsync=1",
+      "--output=/home/lxq/jq-projects/rafv4/reports/raw/fio-cache-diagnostic/buffered-read-1M-n8-hot.json"
+    ]
+  }
+]

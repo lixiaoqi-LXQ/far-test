@@ -1,0 +1,6 @@
+fio-shared-512M-n1 28.849 GB/s disk 536870912
+raf-shared-512M-n1 29.043 GB/s disk 0
+fio-shared-512M-n8 131.302 GB/s disk 0
+raf-shared-512M-n8 151.165 GB/s disk 0
+fio-shared-2G-n8 125.667 GB/s disk 2147483648
+fio-independent-2G-n8 116.52 GB/s disk 0

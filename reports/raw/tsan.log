@@ -1,0 +1,14 @@
+Internal ctest changing into directory: /home/lxq/jq-projects/rafv4/build-tsan
+Test project /home/lxq/jq-projects/rafv4/build-tsan
+    Start 1: raf_tests
+1/1 Test #1: raf_tests ........................***Failed    0.01 sec
+FATAL: ThreadSanitizer: unexpected memory mapping 0xc33ca5130000-0xc33ca51c3000
+
+
+0% tests passed, 1 tests failed out of 1
+
+Total Test time (real) =   0.01 sec
+
+The following tests FAILED:
+	  1 - raf_tests (Failed)
+Errors while running CTest

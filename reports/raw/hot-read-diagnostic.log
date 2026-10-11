@@ -1,0 +1,31 @@
+affinity {1: [5], 8: [5, 6, 7, 8, 16, 17, 18, 19]}
+prepared 4096 131072
+prepared 1048576 512
+pinned-4096-n8-crc1-r1 118.24 GB/s 799.6 CPU%
+pinned-1048576-n8-crc0-r2 146.423 GB/s 792.3 CPU%
+pinned-4096-n8-crc0-r1 148.796 GB/s 796.1 CPU%
+pinned-1048576-n1-crc1-r2 14.539 GB/s 100.0 CPU%
+pinned-4096-n8-crc0-r2 150.537 GB/s 798.0 CPU%
+pinned-4096-n1-crc0-r0 31.126 GB/s 100.0 CPU%
+pinned-1048576-n1-crc0-r1 28.954 GB/s 100.0 CPU%
+pinned-4096-n1-crc1-r2 15.103 GB/s 100.0 CPU%
+pinned-1048576-n8-crc0-r0 153.063 GB/s 799.2 CPU%
+pinned-1048576-n8-crc0-r1 151.945 GB/s 799.1 CPU%
+pinned-1048576-n8-crc1-r1 107.375 GB/s 798.5 CPU%
+pinned-4096-n1-crc1-r1 15.086 GB/s 100.0 CPU%
+pinned-1048576-n1-crc0-r2 28.984 GB/s 100.0 CPU%
+pinned-4096-n1-crc0-r2 31.159 GB/s 100.0 CPU%
+pinned-1048576-n1-crc1-r0 14.527 GB/s 100.0 CPU%
+pinned-4096-n8-crc1-r0 115.072 GB/s 799.4 CPU%
+pinned-4096-n8-crc1-r2 117.696 GB/s 799.7 CPU%
+pinned-1048576-n1-crc0-r0 28.946 GB/s 100.0 CPU%
+pinned-4096-n8-crc0-r0 154.431 GB/s 799.5 CPU%
+pinned-1048576-n8-crc1-r2 93.691 GB/s 772.2 CPU%
+pinned-4096-n1-crc1-r0 15.024 GB/s 100.0 CPU%
+pinned-1048576-n1-crc1-r1 14.475 GB/s 100.0 CPU%
+pinned-4096-n1-crc0-r1 31.15 GB/s 100.0 CPU%
+pinned-1048576-n8-crc1-r0 94.424 GB/s 778.3 CPU%
+MEDIAN 1 0 4KiB 31.15 1MiB 28.954
+MEDIAN 1 1 4KiB 15.086 1MiB 14.527
+MEDIAN 8 0 4KiB 150.537 1MiB 151.945
+MEDIAN 8 1 4KiB 117.696 1MiB 94.424

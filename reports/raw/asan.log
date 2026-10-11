@@ -1,0 +1,8 @@
+Internal ctest changing into directory: /home/lxq/jq-projects/rafv4/build-asan
+Test project /home/lxq/jq-projects/rafv4/build-asan
+    Start 1: raf_tests
+1/1 Test #1: raf_tests ........................   Passed   92.93 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =  92.93 sec
