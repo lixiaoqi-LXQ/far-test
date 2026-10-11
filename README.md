@@ -67,3 +67,5 @@ Benchmarks create and remove only their own scratch files in the current directo
 The retained measurements reproduce the report with `python3 bench/make_report.py`. Export the optional throughput curves with `uv run --with matplotlib --no-project python bench/plot_results.py`; matplotlib is only needed for plotting.
 
 See [test report](reports/test-report.md), [performance report](reports/performance-report.md), and [implementation report](reports/implementation-report.md) for actual results and limitations.
+
+中文实现细节与使用注意事项见 [实现说明](docs/implementation-notes.md)，包括读取路径、短读短写、IOV_MAX、索引更新、同步顺序和故障恢复边界。
